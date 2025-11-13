@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
 </head>
 <body>
+<div class="profile-cards-container">
     
+    <div class="profile-card">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="https://img.freepik.com/free-vector/flat-design-geometric-pattern-illustration_23-2149905757.jpg" alt="Michael Deo Avatar 1">
+            </div>
+            <div class="profile-info">
+                <h3 class="profile-name">Michael Deo</h3>
+                <p class="profile-title">UI UX Designer</p>
+                <p class="profile-address">795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+            </div>
+        </div>
+        <div class="profile-actions">
+            <button class="btn btn-follow">Follow</button>
+            <button class="btn btn-message">Message</button>
+        </div>
+        <div class="profile-social">
+               <i class="userSocialLink fa-brands fa-instagram"></i>
+                <i class="userSocialLink fa-brands fa-twitter"></i>
+                <i class="userSocialLink fa-brands fa-facebook"></i>
+                <i class="userSocialLink fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="data:image/jpeg;base64,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" alt="Michael Deo Avatar 2">
+            </div>
+            <div class="profile-info">
+                <h3 class="profile-name">Michael Deo</h3>
+                <p class="profile-title">UI UX Designer</p>
+                <p class="profile-address">795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+            </div>
+        </div>
+        <div class="profile-actions">
+            <button class="btn btn-follow">Follow</button>
+            <button class="btn btn-message">Message</button>
+        </div>
+        <div class="profile-social">
+               <i class="userSocialLink fa-brands fa-instagram"></i>
+                <i class="userSocialLink fa-brands fa-twitter"></i>
+                <i class="userSocialLink fa-brands fa-facebook"></i>
+                <i class="userSocialLink fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPA0VEM0OeB7_bv2euz3Rx5-RiZY5FRXI0Bg&s" alt="Michael Deo Avatar 3">
+            </div>
+            <div class="profile-info">
+                <h3 class="profile-name">Michael Deo</h3>
+                <p class="profile-title">UI UX Designer</p>
+                <p class="profile-address">795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+            </div>
+        </div>
+        <div class="profile-actions">
+            <button class="btn btn-follow">Follow</button>
+            <button class="btn btn-message">Message</button>
+        </div>
+        <div class="profile-social">
+               <i class="userSocialLink fa-brands fa-instagram"></i>
+                <i class="userSocialLink fa-brands fa-twitter"></i>
+                <i class="userSocialLink fa-brands fa-facebook"></i>
+                <i class="userSocialLink fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBgLbWv5tSlMmENrT_YWc36i3NtIwOJImrMg&s" alt="Michael Deo Avatar 4">
+            </div>
+            <div class="profile-info">
+                <h3 class="profile-name">Michael Deo</h3>
+                <p class="profile-title">UI UX Designer</p>
+                <p class="profile-address">795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+            </div>
+        </div>
+        <div class="profile-actions">
+            <button class="btn btn-follow">Follow</button>
+            <button class="btn btn-message">Message</button>
+        </div>
+       <div class="profile-social">
+               <i class="userSocialLink fa-brands fa-instagram"></i>
+                <i class="userSocialLink fa-brands fa-twitter"></i>
+                <i class="userSocialLink fa-brands fa-facebook"></i>
+                <i class="userSocialLink fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    
+</div>
 </body>
 </html>
